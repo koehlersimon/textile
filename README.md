@@ -26,8 +26,8 @@ If you want to use the ViewHelper only:
 - Insert {namespace textile=SIMONKOEHLER\Textile\ViewHelpers} on top of your fluid templates
 - Use the ViewHelper like this: <textile:parse content="{bodytext}"/>
 
-Here's a more detailed documentation:
-https://simon-koehler.com/en/products/textile
+### Official documentation:
+- https://simon-koehler.com/en/products/textile
 
 ## Support & Service
 
