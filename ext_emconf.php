@@ -1,18 +1,11 @@
 <?php
-
-/***************************************************************
- * Made by Simon Köhler @ simon-koehler.com
- ***************************************************************/
-
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Textile Markdown Parser',
-    'description' => 'Become the master of your own social platform',
+    'description' => 'Write Markdown code in the TYPO3 backend',
     'category' => 'plugin',
     'author' => 'Simon Köhler',
     'author_email' => 'info@simon-koehler.com',
     'state' => 'alpha',
-    'uploadfolder' => 0,
-    'createDirs' => '',
     'clearCacheOnLoad' => 0,
     'version' => '1.0.0',
     'constraints' => [

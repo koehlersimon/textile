@@ -1,6 +1,5 @@
 <?php
 use SIMONKOEHLER\Textile\Controller;
-
 return [
     'previewMarkdown' => [
         'path' => '/preview/markup',

@@ -12,4 +12,5 @@ mod.wizards.newContentElement.wizardItems.common {
     show := addToList(textile)
 }
 
-//mod.web_layout.tt_content.preview.textile = EXT:textile/Resources/Private/Templates/Preview/H1_Home.html
+// Todo: Create nice backend preview
+// mod.web_layout.tt_content.preview.textile = EXT:textile/Resources/Private/Templates/Preview/H1_Home.html
