@@ -1,4 +1,4 @@
-# Markdown Parser Textile for TYPO3 (textile)
+# Markdown content with "Textile" for TYPO3 (textile)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/koehlersimon.svg?style=social)](https://twitter.com/koehlersimon) 
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://paypal.me/typo3freelancer)  
