@@ -1,6 +1,8 @@
 # Markdown Parser Textile for TYPO3 (textile)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/koehlersimon.svg?style=social)](https://twitter.com/koehlersimon) 
+[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars&style=plastic)]()
+[![GitHub watchers](https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch&style=plastic)]()
 
 ## Features
 - Provides a new content element of type "Markdown" wich lets you create Textile Markdown language code
