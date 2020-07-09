@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function findBodytextField(){
         for (var i = 0; i < textareas.length; i++) {
             if(textareas[i].name === 'data[tt_content][10][bodytext]'){
+                loadMarkdownPreview(textareas[i].value);
                 return textareas[i];
                 break;
             }
@@ -43,13 +44,11 @@ document.addEventListener("DOMContentLoaded", function() {
         request.send(params);
     }
 
-    document.addEventListener('keyup',function(e){
+    document.addEventListener('change',function(e){
         if(e.target.tagName === 'TEXTAREA'){
             loadMarkdownPreview(e.target.value);
             e.preventDefault();
         }
     });
-
-    loadMarkdownPreview(bodytextfield.value);
 
 });
