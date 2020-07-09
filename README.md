@@ -1,5 +1,7 @@
 # Markdown Parser Textile for TYPO3 (textile)
 
+[![Twitter Follow](https://img.shields.io/twitter/follow/bstevensondev.svg?style=social)](https://twitter.com/koehlersimon) 
+
 ## Features
 - Provides a new content element of type "Markdown" wich lets you create Textile Markdown language code
 - Provides a handy ViewHelper to use "<f:textile.parse>" in your own extensions!
