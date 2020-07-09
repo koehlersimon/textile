@@ -12,6 +12,9 @@
 
 Install the extension by downloading it in the extension manager or on https://extensions.typo3.org/extension/textile/.
 
+### Official documentation:
+- https://simon-koehler.com/en/products/textile
+
 ## Basic configuration
 
 If you want to use the Markdown content element:
@@ -28,9 +31,6 @@ If you want to use the ViewHelper only:
 - Clear caches
 - Insert {namespace textile=SIMONKOEHLER\Textile\ViewHelpers} on top of your fluid templates
 - Use the ViewHelper like this: <textile:parse content="{bodytext}"/>
-
-### Official documentation:
-- https://simon-koehler.com/en/products/textile
 
 ## Support & Service
 
