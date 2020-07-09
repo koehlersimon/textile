@@ -1,7 +1,7 @@
 # Markdown Parser Textile for TYPO3 (textile)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/koehlersimon.svg?style=social)](https://twitter.com/koehlersimon) 
-[![Donate](https://img.shields.io/badge/$-support-ff69b4.svg?style=flat)](https://paypal.me/typo3freelancer)  
+[![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://paypal.me/typo3freelancer)  
 
 ## Features
 - Provides a new content element of type "Markdown" wich lets you create Textile Markdown language code
