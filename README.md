@@ -10,12 +10,12 @@
 - Provides a handy ViewHelper to use "<f:textile.parse>" in your own extensions!
 - Based on the "Textile" Markdown parser: https://textile-lang.com/
 
-## Installation
-
-Install the extension by downloading it in the extension manager or on https://extensions.typo3.org/extension/textile/.
-
 ### Official documentation:
-- https://simon-koehler.com/en/products/textile
+You will find the official documentation als in German and Spanish here:
+https://simon-koehler.com/en/products/textile
+
+## Installation
+Install the extension by downloading it in the extension manager or on https://extensions.typo3.org/extension/textile/.
 
 ## Basic configuration
 
