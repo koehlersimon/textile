@@ -7,7 +7,7 @@
 
 ## Installation
 
-Install the extension by downloading it in the extension manager or on https://extensions.typo3.org/extension/ce_timeline/.
+Install the extension by downloading it in the extension manager or on https://extensions.typo3.org/extension/textile/.
 
 ## Basic configuration
 
