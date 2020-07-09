@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2020-07-08T13:59:00Z" product-name="textile">
+		<header/>
+		<body>
+			<trans-unit id="textile.widget.title">
+				<source>Markdown</source>
+			</trans-unit>
+            <trans-unit id="textile.widget.description">
+				<source>Write markdown text that will be rendered as HTML in the frontend.</source>
+			</trans-unit>
+            <trans-unit id="textile.markdown_preview">
+				<source>Markdown Preview</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

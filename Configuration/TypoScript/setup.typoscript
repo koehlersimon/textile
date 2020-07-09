@@ -1,0 +1,20 @@
+## Fluid Styled Content Templates
+lib.contentElement {
+    layoutRootPaths {
+        234 = EXT:textile/Resources/Private/Layouts/Content/
+    }
+    templateRootPaths {
+        234 = EXT:textile/Resources/Private/Templates/Content/
+    }
+    partialRootPaths {
+        234 = EXT:textile/Resources/Private/Partials/Content/
+    }
+}
+
+tt_content {
+    textile =< lib.contentElement
+    textile {
+        templateName = Markdown
+        extbase.controllerExtensionName = textile
+    }
+}
