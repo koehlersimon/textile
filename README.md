@@ -40,7 +40,14 @@ If you want to use the ViewHelper only:
 The shortcode functin is pretty simple. You can define the page UID of your desired target page, a link title, target and CSS classes.
 Use the syntac below in your Markdown code:
 
+```markdown
 [link:4:Labeltext:_blank:my-css-class]
+```
+### HTML output:
+
+```html
+<a href="/yourpageslug/" target="_blank" class="my-css-class">Labeltext</a>
+```
 
 ## Support & Service
 
