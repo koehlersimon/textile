@@ -1,6 +1,6 @@
 # Markdown content with "Textile" for TYPO3 (textile)
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/koehlersimon.svg?style=social)](https://twitter.com/koehlersimon) 
+[![Twitter Follow](https://img.shields.io/twitter/follow/koehlersimon.svg?style=social)](https://twitter.com/koehlersimon)
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://paypal.me/typo3freelancer)  
 
 *This extension is a BETA version and NOT available in the official TYPO3 repository yet. Please download it only here for testing purposes.*
@@ -9,6 +9,7 @@
 - Provides a new content element of type "Markdown" wich lets you create Textile Markdown language code
 - Provides a handy ViewHelper to use "<f:textile.parse>" in your own extensions!
 - Based on the "Textile" Markdown parser: https://textile-lang.com/
+- Renders shortcodes of internal links to pages!
 
 ### Official documentation:
 You will find the official documentation als in German and Spanish here:
@@ -33,6 +34,13 @@ If you want to use the ViewHelper only:
 - Clear caches
 - Insert {namespace textile=SIMONKOEHLER\Textile\ViewHelpers} on top of your fluid templates
 - Use the ViewHelper like this: <textile:parse content="{bodytext}"/>
+
+## How to insert an internal link
+
+The shortcode functin is pretty simple. You can define the page UID of your desired target page, a link title, target and CSS classes.
+Use the syntac below in your Markdown code:
+
+[link:4:Labeltext:_blank:my-css-class]
 
 ## Support & Service
 
