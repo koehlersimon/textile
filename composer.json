@@ -1,0 +1,29 @@
+{
+    "name": "simonkoehler/textile",
+    "type": "typo3-cms-extension",
+    "version": "1.0.0",
+    "description": "Provides a new Markdown content element and a ViewHelper",
+    "homepage": "https://simon-koehler.com/en",
+    "authors": [
+        {
+            "name": "Simon Köhler",
+            "email": "info@simon-koehler.com",
+            "homepage": "https://simon-koehler.com/en",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "typo3/cms-core": "^9.5.0",
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "textile"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SIMONKOEHLER\\Textile\\": "Classes/"
+        }
+    }
+}
