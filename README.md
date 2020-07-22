@@ -3,8 +3,6 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/koehlersimon.svg?style=social)](https://twitter.com/koehlersimon)
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://paypal.me/typo3freelancer)  
 
-*This extension is a BETA version and NOT available in the official TYPO3 repository yet. Please download it only here for testing purposes.*
-
 ## Features
 - Provides a new content element of type "Markdown" wich lets you create Textile Markdown language code
 - Provides a handy ViewHelper to use "<f:textile.parse>" in your own extensions!
