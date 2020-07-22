@@ -6,7 +6,7 @@ use TYPO3\CMS\Core\Http\HtmlResponse;
 class PreviewController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
 
     /**
-     * function clientList
+     * function markdown
      *
      * @return void
      */
@@ -21,7 +21,6 @@ class PreviewController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
         $parser = new \Netcarver\Textile\Parser();
         $content = $request->getParsedBody()['bodytext'];
         return new HtmlResponse($parser->parse($content));
-
     }
 
 }
