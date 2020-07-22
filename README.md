@@ -11,6 +11,10 @@
 - Based on the "Textile" Markdown parser: https://textile-lang.com/
 - Renders shortcodes of internal links to pages!
 
+## Screenshots
+
+![](https://github.com/koehlersimon/textile/blob/master/Documentation/Images/new-content-element-wizard.jpg?raw=true)
+
 ### Official documentation:
 You will find the official documentation als in German and Spanish here:
 https://simon-koehler.com/en/products/textile
