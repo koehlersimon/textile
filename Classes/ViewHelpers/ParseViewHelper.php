@@ -36,18 +36,18 @@ class ParseViewHelper extends AbstractViewHelper
             foreach ($matches as $match) {
                 $parts = explode(":",$match);
                 if($parts[2] && $parts[2] !== ''){
-                    $target = ' target="'.$parts[2].'"';
+                    $target = ' target="'.$parts[3].'"';
                 }
                 if($parts[3] && $parts[3] !== ''){
-                    $classes = ' class="'.$parts[3].'"';
+                    $classes = ' class="'.$parts[4].'"';
                 }
-                $uri = $uriBuilder->reset()->setTargetPageUid(trim($parts[0]))->build();
+                $uri = $uriBuilder->reset()->setTargetPageUid(trim($parts[1]))->build();
                 $toReplace = "/\[link".$match."\]/";
                 if($uri !== ''){
-                    $arguments['content'] = preg_replace($toReplace,'<a href="'.$uri.'" '.$target.$classes.'>'.$parts[1].'</a>', $arguments['content']);
+                    $arguments['content'] = preg_replace($toReplace,'<a href="'.$uri.'" '.$target.$classes.'>'.$parts[2].'</a>', $arguments['content']);
                 }
                 else{
-                    $arguments['content'] = preg_replace($toReplace,$parts[1], $arguments['content']);
+                    $arguments['content'] = preg_replace($toReplace,$parts[2], $arguments['content']);
                 }
             }
         }
