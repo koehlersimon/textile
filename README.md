@@ -54,6 +54,13 @@ Use the syntax below in your Markdown code:
 <a href="/yourpageslug/" target="_blank" class="my-css-class">Labeltext</a>
 ```
 
+## How to use the ViewHelper in a Fluid template
+
+```html
+{namespace textile=SIMONKOEHLER\Textile\ViewHelpers}
+<textile:parse content="{bodytext}"/>
+```
+
 ## Support & Service
 
 If you have any problems with the extension, please let me know! Since this is open source, I only guarantee 100% expert support when I get paid, but I also like to support the community. Please don't hesitate to open an issue here on GitHub or send a message: https://simon-koehler.com/en/contact
