@@ -44,7 +44,8 @@ The shortcode function is pretty simple. You can define the page UID of your des
 Use the syntax below in your Markdown code:
 
 ```markdown
-[link:4:Labeltext:_blank:my-css-class]
+Simple usage: [link:4]
+Full parameters: [link:4:Labeltext:_blank:my-css-class]
 ```
 ### Frontend output:
 
@@ -56,7 +57,14 @@ Use the syntax below in your Markdown code:
 
 ```html
 {namespace textile=SIMONKOEHLER\Textile\ViewHelpers}
+<!-- Minimal ViewHelper usage -->
 <textile:parse content="{bodytext}"/>
+
+<!-- Setting a default link text if a link has no text defined -->
+<textile:parse content="{bodytext}" defaultLabel="MyLabel"/>
+
+<!-- Disable rendering of links -->
+<textile:parse content="{bodytext}" disableLinks="1"/>
 ```
 
 ## Support & Service
