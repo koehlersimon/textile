@@ -348,7 +348,7 @@ namespace Netcarver\Textile;
  *
  * class CommentParser extends Parser
  * {
- *     protected function configure()
+ *     protected function configureParser()
  *     {
  *         $this->setImages(false)->setRestricted(true)->setLite(true);
  *     }
@@ -1100,7 +1100,7 @@ class Parser
      *
      * @param  string $doctype The output document type, either 'xhtml' or 'html5'
      * @throws \InvalidArgumentException
-     * @see    Parser::configure()
+     * @see    Parser::configureParser()
      * @see    Parser::parse()
      * @see    Parser::setDocumentType()
      * @api
@@ -1171,7 +1171,7 @@ class Parser
             $this->setDocumentRootDirectory($_SERVER['PATH_TRANSLATED']);
         }
 
-        $this->configure();
+        $this->configureParser();
     }
 
     /**
@@ -1185,7 +1185,7 @@ class Parser
      *
      * class CommentParser extends Parser
      * {
-     *     protected function configure()
+     *     protected function configureParser()
      *     {
      *         $this->setImages(false)->setRestricted(true)->setLite(true);
      *     }
@@ -1196,7 +1196,7 @@ class Parser
      * @api
      */
 
-    protected function configure()
+    protected function configureParser()
     {
     }
 
