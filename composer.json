@@ -8,13 +8,13 @@
         {
             "name": "Simon Köhler",
             "email": "info@simon-koehler.com",
-            "homepage": "https://simon-koehler.com/en",
+            "homepage": "https://simon-koehler.com/",
             "role": "Developer"
         }
     ],
     "license": "GPL-3.0-or-later",
     "require": {
-        "typo3/cms-core": "^9.5 || ^10.4"
+        "typo3/cms-core": "^9.5 || ^10.4 || ^11.2"
     },
     "replace": {
         "simonkoehler/textile": "self.version",
