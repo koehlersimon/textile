@@ -16,7 +16,7 @@
 
 ### Official documentation:
 You will find the official documentation als in German and Spanish here:
-https://simon-koehler.com/en/products/textile
+https://simon-koehler.com/products/typo3-extensions/textile
 
 ## Installation
 Install the extension by downloading it in the extension manager or on https://extensions.typo3.org/extension/textile/.
