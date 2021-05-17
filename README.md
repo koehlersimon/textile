@@ -11,8 +11,8 @@
 
 ## Screenshots
 
-<img src="https://github.com/koehlersimon/textile/blob/master/Documentation/Images/new-content-element-wizard.jpg?raw=true" width="320">
-<img src="https://github.com/koehlersimon/textile/blob/master/Documentation/Images/content-element-textile.jpg?raw=true" width="320">
+<img src="https://github.com/koehlersimon/textile/blob/master/Resources/Public/Screenshots/new-content-element-wizard.jpg?raw=true" width="320">
+<img src="https://github.com/koehlersimon/textile/blob/master/Resources/Public/Screenshots/content-element-textile.jpg?raw=true" width="320">
 
 ### Official documentation:
 You will find the official documentation als in German and Spanish here:
