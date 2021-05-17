@@ -1,4 +1,4 @@
-# Markup content with "Textile" for TYPO3 (textile)
+# Textile Markup Content Element (textile)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/koehlersimon.svg?style=social)](https://twitter.com/koehlersimon)
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://paypal.me/typo3freelancer)  
