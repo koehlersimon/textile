@@ -32,7 +32,7 @@ call_user_func(function () {
                 --palette--;;header,
 				--palette--;;subheader,
                 bodytext,
-				markdown_preview,
+				markup_preview,
 				--div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
 	            --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
 	            --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.appearanceLinks;appearanceLinks,
@@ -53,11 +53,11 @@ call_user_func(function () {
 			        'rows' => 15,
                 ]
             ],
-			'markdown_preview' => [
-				'label' => 'LLL:EXT:textile/Resources/Private/Language/locallang.xlf:textile.markdown_preview',
+			'markup_preview' => [
+				'label' => 'LLL:EXT:textile/Resources/Private/Language/locallang.xlf:textile.markup_preview',
 				'config' => [
 	                'type' => 'user',
-					'renderType' => 'textileMarkdown',
+					'renderType' => 'textileMarkup',
 	                'parameters' => array(
 	                    'color' => 'blue'
 	                )

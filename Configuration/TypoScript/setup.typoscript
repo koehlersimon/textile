@@ -14,7 +14,7 @@ lib.contentElement {
 tt_content {
     textile =< lib.contentElement
     textile {
-        templateName = Markdown
+        templateName = Markup
         extbase.controllerExtensionName = textile
     }
 }

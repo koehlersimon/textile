@@ -6,11 +6,11 @@ use TYPO3\CMS\Core\Http\HtmlResponse;
 class PreviewController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
 
     /**
-     * function markdown
+     * function markup
      *
      * @return void
      */
-    public function markdown(\Psr\Http\Message\ServerRequestInterface $request)
+    public function markup(\Psr\Http\Message\ServerRequestInterface $request)
     {
         $queryParams = $request->getQueryParams();
         $systemRoot = \TYPO3\CMS\Core\Core\Environment::getPublicPath();

@@ -1,6 +1,6 @@
 <?php
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['formEngine']['nodeRegistry'][time()] = [
-    'nodeName' => 'textileMarkdown',
+    'nodeName' => 'textileMarkup',
     'priority' => 40,
-    'class' => \SIMONKOEHLER\Textile\Form\Element\MarkdownPreview::class,
+    'class' => \SIMONKOEHLER\Textile\Form\Element\MarkupPreview::class,
 ];

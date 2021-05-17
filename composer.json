@@ -1,8 +1,8 @@
 {
     "name": "simonkoehler/textile",
     "type": "typo3-cms-extension",
-    "version": "1.0.3",
-    "description": "Provides a new Markdown content element and a ViewHelper",
+    "version": "2.0.0",
+    "description": "Provides a new Markup Code content element and a ViewHelper",
     "homepage": "https://simon-koehler.com/en",
     "authors": [
         {

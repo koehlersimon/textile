@@ -1,8 +1,8 @@
 <?php
 use SIMONKOEHLER\Textile\Controller;
 return [
-    'previewMarkdown' => [
+    'previewMarkup' => [
         'path' => '/preview/markup',
-        'target' => Controller\PreviewController::class . '::markdown'
+        'target' => Controller\PreviewController::class . '::markup'
     ],
 ];

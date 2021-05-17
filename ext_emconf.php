@@ -1,13 +1,13 @@
 <?php
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Textile Markdown',
-    'description' => 'Provides a new Markdown content element and a ViewHelper',
+    'title' => 'Textile Markup Content Element',
+    'description' => 'Provides a new Markup content element and a ViewHelper',
     'category' => 'plugin',
     'author' => 'Simon Köhler',
     'author_email' => 'info@simon-koehler.com',
     'state' => 'beta',
     'clearCacheOnLoad' => 0,
-    'version' => '1.0.3',
+    'version' => '2.0.0',
     'constraints' => [
         'depends' => [
             'typo3' => '9.5.99-10.4.99',

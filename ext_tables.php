@@ -10,10 +10,10 @@ $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
 $iconRegistry->registerIcon(
     'textile-icon',
     \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
-    ['source' => 'EXT:textile/Resources/Public/Icons/markdown.svg']
+    ['source' => 'EXT:textile/Resources/Public/Icons/markup.svg']
 );
 $iconRegistry->registerIcon(
     'textile-icon-small-png',
     \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
-    ['source' => 'EXT:textile/Resources/Public/Icons/markdown-32x32.png']
+    ['source' => 'EXT:textile/Resources/Public/Icons/markup-32x32.png']
 );

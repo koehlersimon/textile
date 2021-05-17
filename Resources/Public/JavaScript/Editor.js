@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function findBodytextField(){
         for (var i = 0; i < textareas.length; i++) {
             if(textareas[i].name === 'data[tt_content][10][bodytext]'){
-                loadMarkdownPreview(textareas[i].value);
+                loadMarkupPreview(textareas[i].value);
                 return textareas[i];
                 break;
             }
@@ -22,14 +22,14 @@ document.addEventListener("DOMContentLoaded", function() {
         return queryString.substr(1);
     }
 
-    function loadMarkdownPreview(content){
+    function loadMarkupPreview(content){
         var data = {bodytext: content};
         var params = typeof data == 'string' ? data : Object.keys(data).map(
             function(k){ return encodeURIComponent(k) + '=' + encodeURIComponent(data[k]) }
         ).join('&');
-        let url = TYPO3.settings.ajaxUrls['previewMarkdown'];
+        let url = TYPO3.settings.ajaxUrls['previewMarkup'];
         let request = new XMLHttpRequest();
-        let container = document.getElementById('markdown-preview');
+        let container = document.getElementById('markup-preview');
         request.open("POST", url, true);
         request.onreadystatechange = function() {
             if (request.readyState === 4 && request.status == "200") {
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.addEventListener('change',function(e){
         if(e.target.tagName === 'TEXTAREA'){
-            loadMarkdownPreview(e.target.value);
+            loadMarkupPreview(e.target.value);
             e.preventDefault();
         }
     });

@@ -4,13 +4,13 @@
 		<header/>
 		<body>
 			<trans-unit id="textile.widget.title">
-				<target>Markdown</target>
+				<target>Markup</target>
 			</trans-unit>
             <trans-unit id="textile.widget.description">
-				<target>Schreibe Markdown, welches im Frontend als HTML ausgegeben wird.</target>
+				<target>Schreibe Markup, welches im Frontend als HTML ausgegeben wird.</target>
 			</trans-unit>
-            <trans-unit id="textile.markdown_preview">
-				<target>Markdown-Vorschau</target>
+            <trans-unit id="textile.markup_preview">
+				<target>Markup-Vorschau</target>
 			</trans-unit>
 		</body>
 	</file>

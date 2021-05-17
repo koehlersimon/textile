@@ -4,13 +4,13 @@
 		<header/>
 		<body>
 			<trans-unit id="textile.widget.title">
-				<source>Markdown</source>
+				<source>Markup</source>
 			</trans-unit>
             <trans-unit id="textile.widget.description">
-				<source>Write markdown text that will be rendered as HTML in the frontend.</source>
+				<source>Write Markup Code that will be rendered as HTML in the frontend.</source>
 			</trans-unit>
-            <trans-unit id="textile.markdown_preview">
-				<source>Markdown Preview</source>
+            <trans-unit id="textile.markup_preview">
+				<source>Markup Preview</source>
 			</trans-unit>
 		</body>
 	</file>
